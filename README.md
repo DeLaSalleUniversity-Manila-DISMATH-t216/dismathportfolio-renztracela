@@ -259,10 +259,10 @@ dismathportfolio-renztracela created by Classroom for GitHub
     - connected undirected graph with no simple circuits
     - _Forest_ - multiple trees
     - _Rooted Tree_ - a tree in which one vertex has been designated as the root and every edge
-								- An **ordered rooted tree** is a rooted tree where the children of each internal vertex are ordered. 
-								- **leaves** - nodes that do not have children
-								- **ancestors** - nodes on top
-								- **descendants** - children/grandchildren
+		- An **ordered rooted tree** is a rooted tree where the children of each internal vertex are ordered. 
+		- **leaves** - nodes that do not have children
+		- **ancestors** - nodes on top
+		- **descendants** - children/grandchildren
     - _Subtree_
     - _M-ary tree_ - if every internal vertex has no more than m children
         - an m-ary tree with m = 2 is called a _binary tree_
@@ -295,6 +295,7 @@ dismathportfolio-renztracela created by Classroom for GitHub
       - f: Transition function
       - g: Output function
       - s<sub>0</sub>: Initial state
+
 * **Turing Machine**
       - Alan Turing, the father of computer science.
       - Imitation Game movie based on his life story.
