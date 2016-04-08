@@ -213,6 +213,89 @@ dismathportfolio-renztracela created by Classroom for GitHub
 
 #WEEK 10
 * **Big-O Notation**
+        ↳- Let _f_ and _g_ be functions from R-R; _f(x)_ is _O(g(x))_ if there are constants _C_ and _k_ such that: </br>
+        |f(x)| ≤ C|g(x)| </br>
+    whenever _x > k_.
 * **Big-Omega and Big-Theta Notation**</br>
         ↳ **Big-Omega** (Big-Ω) - lower bound </br>
         ↳ **Big-Theta** (Big-Θ) - both upper and lower bound
+
+#WEEK 11
+## NO CLASSES
+
+#WEEK 12
+* **Graph Theory**
+    - _Node_ = Vertex
+    - _Edge_ = Bridge
+    - _Degree_ - number of connected edge on a node
+    - _Handshaking Theory_ - 2e = ∑deg(v)
+    - _Path_ - sequence of edges travelling from vertex to vertex along the edges
+    - _Euler Circuit_ - passess through every edge and goes back to starting point. All vertex has an even degree.
+    - _Euler Path_ - simple path containing every edge of the graph. Exactly **2** vertices have an odd degree.
+    - _Hamilton Path_ - passes through every vertex
+    - _Hamilton Circuit_ - passes through every vertex then goes back to the starting point
+    - _Adjacency Matrix_ - 1 if adjacent to the chosen vertex; 0 if non-adjacent
+    - _Incidence Matrix_ - 1 when edge is incident with chosen vertex; 0 otherwise
+    - _Isomorphism of Graphs_ - Identical Graphs
+
+*Note:* Euler starts with the letter E that means that it should pass every edge while Hamilton ends with the letter N that means that it should pass every node
+
+* **Planar Graph**
+    - There are no edges that crosses in a graph
+    - _Euler's Formula_ - regions = edges - vertices + 2
+    - _Euler's Characteristic_ - ℵ = regions - |edges| + |vertices| = 2
+
+* **Homeomorphic Graphs**
+    - can be obtained from the same graph by a sequence of elementary subdivisions
+    - _Kuratowski's Theorem_ - nonplanar if and only if it contains a subgraph homeophobic to K<sub>3,3</sub> and K<sub>5</sub>
+
+#WEEK 13
+* **Graph Coloring**
+    - assignment of a color to each vertex of the graph so that no two adjacent vertices are assigned the same color
+    - The _chromatic number_ (χ) of a graph is the least number of colors needed for a coloring of this graph.
+    - _Four Color Theorem_ - the chromatic number of a planar graph is no greater than four
+
+* **Trees**
+    - connected undirected graph with no simple circuits
+    - _Forest_ - multiple trees
+    - _Rooted Tree_ - a tree in which one vertex has been designated as the root and every edge
+								- An **ordered rooted tree** is a rooted tree where the children of each internal vertex are ordered. 
+								- **leaves** - nodes that do not have children
+								- **ancestors** - nodes on top
+								- **descendants** - children/grandchildren
+    - _Subtree_
+    - _M-ary tree_ - if every internal vertex has no more than m children
+        - an m-ary tree with m = 2 is called a _binary tree_
+
+* **Modeling Computation**
+    - _Language and Grammars_
+        - Grammars are used to generate the words of a language and to determine whether a word is in a language
+        - Compiler reads a program written in a source language and translate it into an equivalent program in a target language.
+        - Formal Language is an automatic translation of one language to another. Concerned about Syntax and Semantics.
+            - well defined set of rules
+
+* **Alphabet & String**
+    - common way to talk about words, numbers, etc.
+
+* **Automata Theory**
+    - All about law of computation
+    - Finite Automata - simplest model of automata
+        - initial state
+        - final/acceptance state
+        - dead/stuck state
+        - transition
+
+* **Lexical Analysis**
+    - process where the stream of characters making up the source program into a sequence of "words" that make up the source code.
+
+* **Finite State Machine**
+      - S: Finite set of states
+      - I: Finite input alphabet
+      - O: Finite output alphabet
+      - f: Transition function
+      - g: Output function
+      - s<sub>0</sub>: Initial state
+* **Turing Machine**
+      - Alan Turing, the father of computer science.
+      - Imitation Game movie based on his life story.
+
